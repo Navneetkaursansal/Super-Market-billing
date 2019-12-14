@@ -1,6 +1,8 @@
 # Super-Market-billing
 
 //program for creating bill in a supermarket
+
+
 #include<iostream>
 #include<windows.h>
 #include<conio.h>
@@ -10,7 +12,10 @@
 #include<cstdlib>
 #include<iomanip>
 using namespace std;
+
+
 //global variable declaration
+
 int k=7,r=0,flag=0;
 COORD coord = {0, 0};
 
@@ -66,6 +71,9 @@ int retno()
 }
 
 };
+
+
+
 
 class amount: public item
 {
